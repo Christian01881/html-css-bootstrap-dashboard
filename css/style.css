@@ -1,0 +1,50 @@
+:root{
+    --sidebar:#152a3d;
+    --bell:#e28b1d;
+    --light-grey:#e6e6e8;
+    --search:#d5d5d5;
+    --white:#ffffff;
+}
+
+#NavBar{
+    height: 80px;
+    background-color: var(--white);
+}
+
+.CPM-img{
+    width: 80px;
+}
+
+.CPM-search-bg{
+    background-color: var(--search);
+}
+
+.CPM-bell-color{
+    color: var(--bell);
+}
+
+.CPM-wrapper{
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+}
+
+.CPM-sidebar{
+    width: 80px;
+    background-color: var(--sidebar);
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.CPM-content{
+    flex-grow: 1;
+    max-width: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.CPM-bg-grey{
+    background-color: var(--light-grey);
+}
+
+.CPM-avatar{
+    width: 30px;
+}
+
