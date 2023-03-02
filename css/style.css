@@ -4,6 +4,7 @@
     --light-grey:#e6e6e8;
     --search:#d5d5d5;
     --white:#ffffff;
+    --bg-gear:#1b3043;
 }
 
 #NavBar{
@@ -29,7 +30,8 @@
 }
 
 .CPM-sidebar{
-    width: 80px;
+    width: 15vw;
+    min-width: 80px;
     background-color: var(--sidebar);
     background-image: url(../img/sidebar-bg.png);
 }
@@ -48,3 +50,14 @@
     width: 30px;
 }
 
+.CPM-f-size{
+    font-size: 13px;
+}
+
+.CPM-bg-blue{
+    background-color: var(--sidebar);
+}
+
+.CPM-bg-gear{
+    background-color: var(--bg-gear) ;
+}
