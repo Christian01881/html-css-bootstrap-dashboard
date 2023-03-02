@@ -68,3 +68,7 @@
         width: 100vw !important;
     } 
 }
+
+.CPM-bg-bage{
+    background-color: var(--bg-badge);
+}
