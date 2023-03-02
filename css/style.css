@@ -5,6 +5,7 @@
     --search:#d5d5d5;
     --white:#ffffff;
     --bg-gear:#1b3043;
+    --bg-badge:#165bba;
 }
 
 #NavBar{
@@ -60,4 +61,10 @@
 
 .CPM-bg-gear{
     background-color: var(--bg-gear) ;
+}
+
+@media screen and (max-width: 992px){
+    .CPM-w-100{
+        width: 100vw !important;
+    } 
 }
